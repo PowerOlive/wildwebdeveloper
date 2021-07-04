@@ -2,11 +2,36 @@
 
 This page describes the noteworthy improvements provided by each release of Eclipse Wild Web Developer.
 
+
 ### Next release...
+
+## 0.12.0
+
+* 📅 Release Date: June 21st, 2021
+* All changes: https://github.com/eclipse/wildwebdeveloper/compare/0.11.6...0.12.0
+
+#### Use LemMinX 0.16
+
+XML support was updated to use LemMinX 0.16.2 (was 0.15.0). As a consequence, plugins providing extension for Wild Web Developer XML support should consider moving their requirements to LemMinX 0.16 and `org.eclipse.wildwebdeveloper.xml` 0.12.0.
+
+### Previous releases...
+
+## 0.11.6
+
+* 📅 Release Date: March 29th, 2021
+* All changes: https://github.com/eclipse/wildwebdeveloper/compare/0.11.5...0.11.6
+
+#### Updated Eclipse target platform and Language Servers
+
+Use Eclipse Platform 4.19/2021-03 and Language Servers for VSCode 1.54 and newer Yaml Language Server. See respective release notes to learn more.
+
+#### Log message for specific Angular and ESLint LS operations
+
+Also not all language-server specific operations are supported, most of them are now logged for easier troubleshooting.
 
 ## 0.11.5
 
-* 📅 Release Date (tentative): 25th February, 2021
+* 📅 Release Date: March 3rd, 2021
 * All changes: https://github.com/eclipse/wildwebdeveloper/compare/0.11.4...0.11.5
 
 #### Added IDE packages
@@ -23,11 +48,11 @@ Contextual actions show on ESLint error that consist in opening documentation ar
 
 #### XML Preference pages
 
-New XML Preference page allow to configure CodeLens, Validation/Resolution
+New XML Preference pages allow to configure CodeLens, Validation/Resolution.
 
 #### WTP defined catalog extensions now included
 
-The catalog extensions defined using WTP XML catalogs extension point are now used to populate the sustem catalog.
+The catalog extensions defined using WTP XML catalogs extension point are now used to populate the system catalog.
 
 ## 0.11.4
 
